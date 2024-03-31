@@ -1,13 +1,13 @@
-package ru.panina.neoflexTask.CalculationVacationPay.Calculation;
+package ru.panina.neoflexTask.CalculationVacationPay.UserData;
 
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Calculation {
+public class UserData {
     private double averageSalary;
     private double vacationDaysNumber;
 
-    public Calculation(double averageSalary, double vacationDaysNumber) {
+    public UserData(double averageSalary, double vacationDaysNumber) {
         this.averageSalary = averageSalary;
         this.vacationDaysNumber = vacationDaysNumber;
     }
